@@ -27,6 +27,7 @@ lines(HPCsubset$Sub_metering_2,col="red")
 lines(HPCsubset$Sub_metering_3,col="blue")
 legend( "topright",
        legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
-       lty=c(1,1),
-       col=c("black","blue","red"))
+       lty=1,
+       col=c("black","red","blue")
+       )
 dev.off()
